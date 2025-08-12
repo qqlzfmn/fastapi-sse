@@ -33,7 +33,7 @@ def get_new_messages() -> Iterable:
                     ),
                 }
             ),
-            "id": uuid.uuid4(),
+            "id": str(uuid.uuid4()),
         }
     ]
 
