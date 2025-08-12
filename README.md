@@ -18,19 +18,19 @@ Server-Sent Events (SSE) is a web technology that allows servers to push real-ti
 1. Clone the repository to your local machine:
 
    ```shell
-   git clone https://github.com/AndreyKlychnikov/fastapi-sse.git
+   git clone https://github.com/qqlzfmn/fastapi-sse.git
    ```
 
 2. Navigate to the project directory:
 
    ```shell
-   cd sse-fastapi-demo
+   cd fastapi-sse
    ```
 
-3. Install the required Python dependencies using `poetry`:
+3. Install the required Python dependencies using `uv`:
 
    ```shell
-   poetry install
+   uv sync
    ```
 
 ## Usage
@@ -38,7 +38,7 @@ Server-Sent Events (SSE) is a web technology that allows servers to push real-ti
 1. Start the FastAPI application:
 
    ```shell
-   uvicorn main:app --reload
+   uv run fastapi run
    ```
 
    The application will be accessible at [http://localhost:8000](http://localhost:8000).
